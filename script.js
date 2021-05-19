@@ -1,10 +1,13 @@
 function compute()
 {
     var principal = document.getElementById("principal");
+    
+    // send an alert if the value of principal is less or equal to zero
     if (principal.value <= 0) {
     alert("Enter a positive number");
     principal.focus();}
     else{
+    // else compute the interest and display the result in the element with id result
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var interest = principal.value * years * rate/100 ;
