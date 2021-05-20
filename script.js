@@ -19,7 +19,7 @@ function compute()
 
 function updateRate()
 {
-
+// Keep the displayed rate uptodate
 document.getElementById("rate_val").innerText = document.getElementById("rate").value+"%"
 }
         
