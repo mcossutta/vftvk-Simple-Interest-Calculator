@@ -1,12 +1,37 @@
-body {background-color:black;font-family:arial;color:white}
+body {
+    position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000;
+    font-size: larger;
+}
 
-h1{color:grey;font-family:verdana}
+.padding{
+    padding-left : 50px;
+}
+
+h1{
+    color:grey;
+    font-family:verdana;
+    text-align: center;
+}
 
 .maindiv {
     background-color:white;
     color:black;
-    width:400px;
+    width:500px;
     padding:20px;
     border-radius:25px;
     align:center
 }
+
+td {
+    padding-bottom: 0.5em;
+  }
+
+  .column1 {text-align:right}
