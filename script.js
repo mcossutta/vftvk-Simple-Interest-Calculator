@@ -1,3 +1,4 @@
+// the function is run when clicked on the submit button
 function compute()
 {
     var principal = document.getElementById("principal");
